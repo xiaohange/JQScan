@@ -1,7 +1,4 @@
 //
-//
-//
-//
 //  Created by 韩俊强 on 15/10/21.
 //  Copyright © 2015年 韩俊强. All rights reserved.
 //
@@ -120,18 +117,10 @@
     
 }
 
-
-
-
-
-
-
 - (void)showError:(NSString*)str
 {
     [LBXAlertAction showAlertWithTitle:@"提示" msg:str chooseBlock:nil buttonsStatement:@"知道了",nil];
 }
-
-
 
 - (void)scanResultWithArray:(NSArray<LBXScanResult*>*)array
 {
@@ -201,7 +190,6 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-
 #pragma mark -底部功能项
 //打开相册
 - (void)openPhoto
@@ -229,16 +217,12 @@
         [_btnFlash setImage:[UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_btn_flash_nor"] forState:UIControlStateNormal];
 }
 
-
 #pragma mark -底部功能项
-
 
 - (void)myQRCode
 {
     MyQRViewController *vc = [MyQRViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
-
 
 @end

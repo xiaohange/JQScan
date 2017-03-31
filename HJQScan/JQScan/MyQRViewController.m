@@ -54,7 +54,7 @@
 
     UIImage *qrImg = [LBXScanWrapper createQRWithString:@"http://blog.csdn.net/qq_31810357" size:_qrImgView.bounds.size];
     
-    UIImage *logoImg = [UIImage imageNamed:@"scan"];
+    UIImage *logoImg = [UIImage imageNamed:@"JQTest"];
     _qrImgView.image = [LBXScanWrapper addImageLogo:qrImg centerLogoImage:logoImg logoSize:CGSizeMake(30, 30)];
     
 }

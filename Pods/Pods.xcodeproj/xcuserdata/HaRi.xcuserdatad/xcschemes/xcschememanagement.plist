@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-HJQScan.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5B0BD2DECAB32BFCFD79325EA6EAC852</key>
+		<key>5700D8DB63D0F2A972BD7F787C684D8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6ED8CD7EB070CA62732746129A12CD72</key>
+		<key>695CC512BB920DB2DF2D1ABDF434F3BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EB33A6AA4B56718E8068354CA19686D</key>
+		<key>88F47BD2654455BC87C5038A7A1E04BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

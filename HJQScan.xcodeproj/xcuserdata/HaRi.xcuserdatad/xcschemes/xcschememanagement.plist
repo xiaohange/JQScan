@@ -4,35 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LBXScan.xcscheme</key>
+		<key>HJQScan.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Pods.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>ZXingObjC.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5B0BD2DECAB32BFCFD79325EA6EAC852</key>
+		<key>11FBB06A1C599CE9000B3820</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6ED8CD7EB070CA62732746129A12CD72</key>
+		<key>11FBB0831C599CE9000B3820</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8EB33A6AA4B56718E8068354CA19686D</key>
+		<key>11FBB08E1C599CE9000B3820</key>
 		<dict>
 			<key>primary</key>
 			<true/>

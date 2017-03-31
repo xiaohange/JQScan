@@ -20,8 +20,8 @@
 		11FBB0B41C59A65E000B3820 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0AD1C59A65E000B3820 /* ScanResultViewController.m */; };
 		11FBB0B51C59A65E000B3820 /* ScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FBB0AE1C59A65E000B3820 /* ScanResultViewController.xib */; };
 		11FBB0B61C59A65E000B3820 /* SubLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0B01C59A65E000B3820 /* SubLBXScanViewController.m */; };
-		11FBB0B81C59A779000B3820 /* scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FBB0B71C59A779000B3820 /* scan.png */; };
-		DDA74725A7ED4BD7EB68E21D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F71D21F4644316F138DAAF /* libPods.a */; };
+		473653C41E8E183F00AE9814 /* JQTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 473653C31E8E183F00AE9814 /* JQTest.png */; };
+		DA181DAEFCD04457D157614B /* libPods-HJQScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A4EE5CF0D558982112B1D /* libPods-HJQScan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,10 +66,10 @@
 		11FBB0AE1C59A65E000B3820 /* ScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanResultViewController.xib; sourceTree = "<group>"; };
 		11FBB0AF1C59A65E000B3820 /* SubLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLBXScanViewController.h; sourceTree = "<group>"; };
 		11FBB0B01C59A65E000B3820 /* SubLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLBXScanViewController.m; sourceTree = "<group>"; };
-		11FBB0B71C59A779000B3820 /* scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan.png; sourceTree = "<group>"; };
-		1380668DDB10E6752DD2F58E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		79F71D21F4644316F138DAAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B53F7FFC0FF48CFF0D58CB40 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		12448CBAA4DF565B4A5C7645 /* Pods-HJQScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJQScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJQScan/Pods-HJQScan.debug.xcconfig"; sourceTree = "<group>"; };
+		222A4EE5CF0D558982112B1D /* libPods-HJQScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJQScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		473653C31E8E183F00AE9814 /* JQTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JQTest.png; sourceTree = "<group>"; };
+		E96E5337AE8ABDF7FA0E6A7E /* Pods-HJQScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJQScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJQScan/Pods-HJQScan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA74725A7ED4BD7EB68E21D /* libPods.a in Frameworks */,
+				DA181DAEFCD04457D157614B /* libPods-HJQScan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +105,8 @@
 				11FBB0871C599CE9000B3820 /* HJQScanTests */,
 				11FBB0921C599CE9000B3820 /* HJQScanUITests */,
 				11FBB06C1C599CE9000B3820 /* Products */,
-				A217B1272E4B3167E35643D6 /* Pods */,
-				59C710A5CA02887202BFE743 /* Frameworks */,
+				A659FFD571CE9604B1E107F8 /* Pods */,
+				2FCAE6DBE4013E02EE8481D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +166,8 @@
 		11FBB0A71C59A65E000B3820 /* JQScan */ = {
 			isa = PBXGroup;
 			children = (
+				473653C31E8E183F00AE9814 /* JQTest.png */,
 				11FBB0A81C59A65E000B3820 /* CodeScan.bundle */,
-				11FBB0B71C59A779000B3820 /* scan.png */,
 				11FBB0AA1C59A65E000B3820 /* MyQRViewController.h */,
 				11FBB0AB1C59A65E000B3820 /* MyQRViewController.m */,
 				11FBB0AC1C59A65E000B3820 /* ScanResultViewController.h */,
@@ -179,19 +179,19 @@
 			path = JQScan;
 			sourceTree = "<group>";
 		};
-		59C710A5CA02887202BFE743 /* Frameworks */ = {
+		2FCAE6DBE4013E02EE8481D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				79F71D21F4644316F138DAAF /* libPods.a */,
+				222A4EE5CF0D558982112B1D /* libPods-HJQScan.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A217B1272E4B3167E35643D6 /* Pods */ = {
+		A659FFD571CE9604B1E107F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1380668DDB10E6752DD2F58E /* Pods.debug.xcconfig */,
-				B53F7FFC0FF48CFF0D58CB40 /* Pods.release.xcconfig */,
+				12448CBAA4DF565B4A5C7645 /* Pods-HJQScan.debug.xcconfig */,
+				E96E5337AE8ABDF7FA0E6A7E /* Pods-HJQScan.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -203,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11FBB0981C599CE9000B3820 /* Build configuration list for PBXNativeTarget "HJQScan" */;
 			buildPhases = (
-				9FAED46018E92E164791D22D /* Check Pods Manifest.lock */,
+				CEF4EA533BB8C35EAA10C9C3 /* [CP] Check Pods Manifest.lock */,
 				11FBB0671C599CE9000B3820 /* Sources */,
 				11FBB0681C599CE9000B3820 /* Frameworks */,
 				11FBB0691C599CE9000B3820 /* Resources */,
-				A6F35E52200BD383C25AB978 /* Embed Pods Frameworks */,
-				049EEABDCE5F527E596E378F /* Copy Pods Resources */,
+				0C41B5EF4FC2A4ABF896BC06 /* [CP] Embed Pods Frameworks */,
+				C71717569A019A4DB749FAE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +266,7 @@
 				TargetAttributes = {
 					11FBB06A1C599CE9000B3820 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WTB2BKP7UZ;
 					};
 					11FBB0831C599CE9000B3820 = {
 						CreatedOnToolsVersion = 7.2;
@@ -302,10 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473653C41E8E183F00AE9814 /* JQTest.png in Resources */,
 				11FBB07E1C599CE9000B3820 /* LaunchScreen.storyboard in Resources */,
 				11FBB07B1C599CE9000B3820 /* Assets.xcassets in Resources */,
 				11FBB0B51C59A65E000B3820 /* ScanResultViewController.xib in Resources */,
-				11FBB0B81C59A779000B3820 /* scan.png in Resources */,
 				11FBB0791C599CE9000B3820 /* Main.storyboard in Resources */,
 				11FBB0B11C59A65E000B3820 /* CodeScan.bundle in Resources */,
 			);
@@ -328,49 +329,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		049EEABDCE5F527E596E378F /* Copy Pods Resources */ = {
+		0C41B5EF4FC2A4ABF896BC06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJQScan/Pods-HJQScan-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9FAED46018E92E164791D22D /* Check Pods Manifest.lock */ = {
+		C71717569A019A4DB749FAE9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJQScan/Pods-HJQScan-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6F35E52200BD383C25AB978 /* Embed Pods Frameworks */ = {
+		CEF4EA533BB8C35EAA10C9C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,9 +525,10 @@
 		};
 		11FBB0991C599CE9000B3820 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1380668DDB10E6752DD2F58E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 12448CBAA4DF565B4A5C7645 /* Pods-HJQScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				INFOPLIST_FILE = HJQScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "------------.HJQScan";
@@ -536,9 +538,10 @@
 		};
 		11FBB09A1C599CE9000B3820 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B53F7FFC0FF48CFF0D58CB40 /* Pods.release.xcconfig */;
+			baseConfigurationReference = E96E5337AE8ABDF7FA0E6A7E /* Pods-HJQScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				INFOPLIST_FILE = HJQScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "------------.HJQScan";
