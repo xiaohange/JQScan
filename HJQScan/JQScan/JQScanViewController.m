@@ -6,45 +6,40 @@
 //  Copyright © 2015年 韩俊强. All rights reserved.
 //
 
-#import "SubLBXScanViewController.h"
+#import "JQScanViewController.h"
 #import <LBXScanResult.h>
 #import <LBXScanWrapper.h>
 #import "MyQRViewController.h"
-#import "ScanResultViewController.h"
+#import "JQScanResultViewController.h"
 
 
 
-@interface SubLBXScanViewController ()
+@interface JQScanViewController ()
 
 @end
 
-@implementation SubLBXScanViewController
+@implementation JQScanViewController
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     LBXScanViewStyle *style = [[LBXScanViewStyle alloc]init];
     style.anmiationStyle = LBXScanViewAnimationStyle_LineMove;
     style.animationImage = [UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_light_green"];
     self.style = style;
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
-        
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
-    
     self.view.backgroundColor = [UIColor blackColor];
 }
-
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-
-         [self drawBottomItems];
-        [self drawTitle];
-         [self.view bringSubviewToFront:_topTitle];
-
-   
+    [self drawBottomItems];
+    [self drawTitle];
+    [self.view bringSubviewToFront:_topTitle];
 }
 
 - (void)drawTitle
@@ -68,8 +63,6 @@
         _topTitle.textColor = [UIColor whiteColor];
         [self.view addSubview:_topTitle];
     }
-    
-    
 }
 
 - (void)drawBottomItems
@@ -78,7 +71,6 @@
         
         return;
     }
-    
     self.bottomItemsView = [[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.view.frame)-164,CGRectGetWidth(self.view.frame), 100)];
     
     _bottomItemsView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.6];
@@ -108,27 +100,22 @@
     
     [_bottomItemsView addSubview:_btnFlash];
     [_bottomItemsView addSubview:_btnPhoto];
-    [_bottomItemsView addSubview:_btnMyQR];   
-    
+    [_bottomItemsView addSubview:_btnMyQR];
 }
-
 
 - (void)scanResultWithArray:(NSArray<LBXScanResult*>*)array
 {
     
-    if (array.count < 1)
-    {
+    if (array.count < 1){
         [self popAlertMsgWithScanResult:nil];
      
         return;
     }
-    
     //经测试，可以同时识别2个二维码，不能同时识别二维码和条形码
     for (LBXScanResult *result in array) {
         
         NSLog(@"scanResult:%@",result.strScanned);
     }
-    
     LBXScanResult *scanResult = array[0];
     
     NSString*strResult = scanResult.strScanned;
@@ -141,13 +128,10 @@
         
         return;
     }
-    
     //震动提醒
     [LBXScanWrapper systemVibrate];
     //声音提醒
     [LBXScanWrapper systemSound];
-
-    
     [self showNextVCWithScanResult:scanResult];
    
 }
@@ -161,18 +145,16 @@
     }];
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
-    
 }
 
 - (void)showNextVCWithScanResult:(LBXScanResult*)strResult
 {
-    ScanResultViewController *vc = [ScanResultViewController new]; 
+    JQScanResultViewController *vc = [JQScanResultViewController new]; 
     vc.strScan = strResult.strScanned;
         CGSize size = CGSizeMake(CGRectGetWidth(self.view.frame)-12, CGRectGetWidth(self.view.frame)-12);
         vc.imgScan = [LBXScanWrapper createQRWithString: strResult.strScanned size:size];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 #pragma mark -底部功能项
 //打开相册
@@ -193,28 +175,17 @@
 //开关闪光灯
 - (void)openOrCloseFlash
 {
-    
     [super openOrCloseFlash];
-   
-    
-    if (self.isOpenFlash)
-    {
+
+    if (self.isOpenFlash){
         [_btnFlash setImage:[UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_btn_flash_down"] forState:UIControlStateNormal];
-    }
-    else
+    }else
         [_btnFlash setImage:[UIImage imageNamed:@"CodeScan.bundle/qrcode_scan_btn_flash_nor"] forState:UIControlStateNormal];
 }
-
-
 #pragma mark -底部功能项
-
-
 - (void)myQRCode
 {
     MyQRViewController *vc = [MyQRViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
-
-
 @end

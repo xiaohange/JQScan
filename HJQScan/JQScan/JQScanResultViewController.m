@@ -1,20 +1,20 @@
 //
-//  ScanResultViewController.m
+//  JQScanResultViewController.m
 //  LBXScanDemo
 //
 //  Created by 韩俊强 on 15/11/17.
 //  Copyright © 2015年 韩俊强. All rights reserved.
 //
 
-#import "ScanResultViewController.h"
+#import "JQScanResultViewController.h"
 
-@interface ScanResultViewController ()
+@interface JQScanResultViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *scanImg;
 @property (weak, nonatomic) IBOutlet UILabel *labelScanText;
 @end
 
-@implementation ScanResultViewController
+@implementation JQScanResultViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,6 @@
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
 }
-
 
 - (void)viewWillAppear:(BOOL)animated
 {

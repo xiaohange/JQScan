@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <LBXScanViewController.h>
-#import "SubLBXScanViewController.h"
+#import "JQScanViewController.h"
 @interface ViewController ()
 
 @end
@@ -23,8 +23,7 @@
 // 扫描二维码
 - (IBAction)scanPicture:(UIButton *)sender
 {
-    
-    SubLBXScanViewController *vc = [SubLBXScanViewController new];
+    JQScanViewController *vc = [JQScanViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

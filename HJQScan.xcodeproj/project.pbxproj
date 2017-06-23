@@ -17,9 +17,9 @@
 		11FBB0941C599CE9000B3820 /* HJQScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0931C599CE9000B3820 /* HJQScanUITests.m */; };
 		11FBB0B11C59A65E000B3820 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11FBB0A81C59A65E000B3820 /* CodeScan.bundle */; };
 		11FBB0B31C59A65E000B3820 /* MyQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0AB1C59A65E000B3820 /* MyQRViewController.m */; };
-		11FBB0B41C59A65E000B3820 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0AD1C59A65E000B3820 /* ScanResultViewController.m */; };
-		11FBB0B51C59A65E000B3820 /* ScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FBB0AE1C59A65E000B3820 /* ScanResultViewController.xib */; };
-		11FBB0B61C59A65E000B3820 /* SubLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0B01C59A65E000B3820 /* SubLBXScanViewController.m */; };
+		11FBB0B41C59A65E000B3820 /* JQScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0AD1C59A65E000B3820 /* JQScanResultViewController.m */; };
+		11FBB0B51C59A65E000B3820 /* JQScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FBB0AE1C59A65E000B3820 /* JQScanResultViewController.xib */; };
+		11FBB0B61C59A65E000B3820 /* JQScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FBB0B01C59A65E000B3820 /* JQScanViewController.m */; };
 		473653C41E8E183F00AE9814 /* JQTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 473653C31E8E183F00AE9814 /* JQTest.png */; };
 		DA181DAEFCD04457D157614B /* libPods-HJQScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A4EE5CF0D558982112B1D /* libPods-HJQScan.a */; };
 /* End PBXBuildFile section */
@@ -61,11 +61,11 @@
 		11FBB0A81C59A65E000B3820 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
 		11FBB0AA1C59A65E000B3820 /* MyQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRViewController.h; sourceTree = "<group>"; };
 		11FBB0AB1C59A65E000B3820 /* MyQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRViewController.m; sourceTree = "<group>"; };
-		11FBB0AC1C59A65E000B3820 /* ScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
-		11FBB0AD1C59A65E000B3820 /* ScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
-		11FBB0AE1C59A65E000B3820 /* ScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanResultViewController.xib; sourceTree = "<group>"; };
-		11FBB0AF1C59A65E000B3820 /* SubLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLBXScanViewController.h; sourceTree = "<group>"; };
-		11FBB0B01C59A65E000B3820 /* SubLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLBXScanViewController.m; sourceTree = "<group>"; };
+		11FBB0AC1C59A65E000B3820 /* JQScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanResultViewController.h; sourceTree = "<group>"; };
+		11FBB0AD1C59A65E000B3820 /* JQScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanResultViewController.m; sourceTree = "<group>"; };
+		11FBB0AE1C59A65E000B3820 /* JQScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQScanResultViewController.xib; sourceTree = "<group>"; };
+		11FBB0AF1C59A65E000B3820 /* JQScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanViewController.h; sourceTree = "<group>"; };
+		11FBB0B01C59A65E000B3820 /* JQScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanViewController.m; sourceTree = "<group>"; };
 		12448CBAA4DF565B4A5C7645 /* Pods-HJQScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJQScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJQScan/Pods-HJQScan.debug.xcconfig"; sourceTree = "<group>"; };
 		222A4EE5CF0D558982112B1D /* libPods-HJQScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJQScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		473653C31E8E183F00AE9814 /* JQTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JQTest.png; sourceTree = "<group>"; };
@@ -170,11 +170,11 @@
 				11FBB0A81C59A65E000B3820 /* CodeScan.bundle */,
 				11FBB0AA1C59A65E000B3820 /* MyQRViewController.h */,
 				11FBB0AB1C59A65E000B3820 /* MyQRViewController.m */,
-				11FBB0AC1C59A65E000B3820 /* ScanResultViewController.h */,
-				11FBB0AD1C59A65E000B3820 /* ScanResultViewController.m */,
-				11FBB0AE1C59A65E000B3820 /* ScanResultViewController.xib */,
-				11FBB0AF1C59A65E000B3820 /* SubLBXScanViewController.h */,
-				11FBB0B01C59A65E000B3820 /* SubLBXScanViewController.m */,
+				11FBB0AC1C59A65E000B3820 /* JQScanResultViewController.h */,
+				11FBB0AD1C59A65E000B3820 /* JQScanResultViewController.m */,
+				11FBB0AE1C59A65E000B3820 /* JQScanResultViewController.xib */,
+				11FBB0AF1C59A65E000B3820 /* JQScanViewController.h */,
+				11FBB0B01C59A65E000B3820 /* JQScanViewController.m */,
 			);
 			path = JQScan;
 			sourceTree = "<group>";
@@ -306,7 +306,7 @@
 				473653C41E8E183F00AE9814 /* JQTest.png in Resources */,
 				11FBB07E1C599CE9000B3820 /* LaunchScreen.storyboard in Resources */,
 				11FBB07B1C599CE9000B3820 /* Assets.xcassets in Resources */,
-				11FBB0B51C59A65E000B3820 /* ScanResultViewController.xib in Resources */,
+				11FBB0B51C59A65E000B3820 /* JQScanResultViewController.xib in Resources */,
 				11FBB0791C599CE9000B3820 /* Main.storyboard in Resources */,
 				11FBB0B11C59A65E000B3820 /* CodeScan.bundle in Resources */,
 			);
@@ -381,12 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11FBB0B41C59A65E000B3820 /* ScanResultViewController.m in Sources */,
+				11FBB0B41C59A65E000B3820 /* JQScanResultViewController.m in Sources */,
 				11FBB0761C599CE9000B3820 /* ViewController.m in Sources */,
 				11FBB0731C599CE9000B3820 /* AppDelegate.m in Sources */,
 				11FBB0701C599CE9000B3820 /* main.m in Sources */,
 				11FBB0B31C59A65E000B3820 /* MyQRViewController.m in Sources */,
-				11FBB0B61C59A65E000B3820 /* SubLBXScanViewController.m in Sources */,
+				11FBB0B61C59A65E000B3820 /* JQScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

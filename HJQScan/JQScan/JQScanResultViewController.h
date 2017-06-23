@@ -1,5 +1,5 @@
 //
-//  ScanResultViewController.h
+//  JQScanResultViewController.h
 //  LBXScanDemo
 //
 //  Created by 韩俊强 on 15/11/17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScanResultViewController : UIViewController
+@interface JQScanResultViewController : UIViewController
 
 @property (nonatomic, strong) UIImage* imgScan;
 @property (nonatomic, copy) NSString* strScan;

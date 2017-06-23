@@ -9,7 +9,6 @@
 #import "MyQRViewController.h"
 #import "LBXScanWrapper.h"
 
-
 @interface MyQRViewController ()
 
 //二维码
@@ -25,18 +24,15 @@
     // Do any additional setup after loading the view.
     
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
-        
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
-
-    
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
- 
+
     //二维码
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake( (CGRectGetWidth(self.view.frame)-CGRectGetWidth(self.view.frame)*5/6)/2, 100, CGRectGetWidth(self.view.frame)*5/6, CGRectGetWidth(self.view.frame)*5/6)];
     [self.view addSubview:view];
@@ -56,7 +52,6 @@
     
     UIImage *logoImg = [UIImage imageNamed:@"JQTest"];
     _qrImgView.image = [LBXScanWrapper addImageLogo:qrImg centerLogoImage:logoImg logoSize:CGSizeMake(30, 30)];
-    
 }
 
 @end

@@ -3,18 +3,18 @@
 //  Copyright © 2015年 韩俊强. All rights reserved.
 //
 
-#import "SubLBXScanViewController.h"
+#import "JQScanViewController.h"
 #import "MyQRViewController.h"
-#import "ScanResultViewController.h"
+#import "JQScanResultViewController.h"
 #import "LBXScanResult.h"
 #import "LBXScanWrapper.h"
 
 
-@interface SubLBXScanViewController ()
+@interface JQScanViewController ()
 
 @end
 
-@implementation SubLBXScanViewController
+@implementation JQScanViewController
 
 
 - (void)viewDidLoad {
@@ -180,7 +180,7 @@
 
 - (void)showNextVCWithScanResult:(LBXScanResult*)strResult
 {
-    ScanResultViewController *vc = [ScanResultViewController new];
+    JQScanResultViewController *vc = [JQScanResultViewController new];
     vc.imgScan = strResult.imgScanned;
     
     vc.strScan = strResult.strScanned;

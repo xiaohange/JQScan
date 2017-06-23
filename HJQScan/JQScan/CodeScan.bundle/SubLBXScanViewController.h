@@ -1,5 +1,5 @@
 //
-//  SubLBXScanViewController.h
+//  JQScanViewController.h
 //
 //   
 //  Created by 韩俊强 on 15/10/21.
@@ -11,7 +11,7 @@
 
 
 //继承LBXScanViewController,在界面上绘制想要的按钮，提示语等
-@interface SubLBXScanViewController : LBXScanViewController
+@interface JQScanViewController : LBXScanViewController
 
 
 
