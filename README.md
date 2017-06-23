@@ -1,7 +1,7 @@
 # HJQScan
-基于LBXScan库二维码扫描 ，使用教程：http://blog.csdn.net/qq_31810357/article/details/50598644
+### 基于ZXingObjC库二维码扫描,高仿QQ扫二维码;使用教程：http://blog.csdn.net/qq_31810357/article/details/50598644
 
-
+![](https://github.com/xiaohange/JQScan/blob/master/v1.jpg?raw=true)
 
 ## Usage
 
@@ -19,3 +19,10 @@ iOS9.0之后要在plist加两个权限:
 
 - Privacy - Camera Usage Description            相机
 - Privacy - Photo Library Usage Description     相册
+
+
+## Star
+
+[CSDN博客](http://blog.csdn.net/qq_31810357) iOS开发者交流群: 446310206
+
+Love is every every every star! Your support is my renewed motivation!
