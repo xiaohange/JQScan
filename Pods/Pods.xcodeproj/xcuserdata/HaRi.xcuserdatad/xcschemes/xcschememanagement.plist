@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LBXScan.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-HJQScan.xcscheme</key>
+		<key>Pods-JQScan.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5700D8DB63D0F2A972BD7F787C684D8F</key>
+		<key>2176EBE346FF3D66D33568087855F82C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>695CC512BB920DB2DF2D1ABDF434F3BD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>88F47BD2654455BC87C5038A7A1E04BF</key>
+		<key>4B0666C3E39018CEB4E81BF0339447E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

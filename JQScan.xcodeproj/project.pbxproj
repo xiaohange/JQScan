@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43CD837310874598D300B444 /* libPods-JQScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 134D06259FEE6AFCA49840AE /* libPods-JQScan.a */; };
+		471990D11EFCB2BD009E2F62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471990D01EFCB2BD009E2F62 /* main.m */; };
+		471990D41EFCB2BD009E2F62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471990D31EFCB2BD009E2F62 /* AppDelegate.m */; };
+		471990D71EFCB2BD009E2F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471990D61EFCB2BD009E2F62 /* ViewController.m */; };
+		471990DA1EFCB2BD009E2F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471990D81EFCB2BD009E2F62 /* Main.storyboard */; };
+		471990DC1EFCB2BD009E2F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471990DB1EFCB2BD009E2F62 /* Assets.xcassets */; };
+		471990DF1EFCB2BD009E2F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471990DD1EFCB2BD009E2F62 /* LaunchScreen.storyboard */; };
+		471990EA1EFCB2BD009E2F62 /* JQScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471990E91EFCB2BD009E2F62 /* JQScanTests.m */; };
+		471990F51EFCB2BD009E2F62 /* JQScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471990F41EFCB2BD009E2F62 /* JQScanUITests.m */; };
+		471991221EFCB2CB009E2F62 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 471991031EFCB2CB009E2F62 /* CodeScan.bundle */; };
+		471991231EFCB2CB009E2F62 /* JQScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991051EFCB2CB009E2F62 /* JQScanResultViewController.m */; };
+		471991241EFCB2CB009E2F62 /* JQScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471991061EFCB2CB009E2F62 /* JQScanResultViewController.xib */; };
+		471991251EFCB2CB009E2F62 /* JQScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991081EFCB2CB009E2F62 /* JQScanViewController.m */; };
+		471991261EFCB2CB009E2F62 /* JQTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 471991091EFCB2CB009E2F62 /* JQTest.png */; };
+		471991271EFCB2CB009E2F62 /* MyQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4719910B1EFCB2CB009E2F62 /* MyQRViewController.m */; };
+		471991281EFCB2CB009E2F62 /* JQScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4719910E1EFCB2CB009E2F62 /* JQScanLineAnimation.m */; };
+		471991291EFCB2CB009E2F62 /* JQScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991101EFCB2CB009E2F62 /* JQScanNative.m */; };
+		4719912A1EFCB2CB009E2F62 /* JQScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991121EFCB2CB009E2F62 /* JQScanNetAnimation.m */; };
+		4719912B1EFCB2CB009E2F62 /* JQScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991141EFCB2CB009E2F62 /* JQScanResult.m */; };
+		4719912C1EFCB2CB009E2F62 /* JQScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991161EFCB2CB009E2F62 /* JQScanView.m */; };
+		4719912D1EFCB2CB009E2F62 /* JQScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991181EFCB2CB009E2F62 /* JQScanViewStyle.m */; };
+		4719912E1EFCB2CB009E2F62 /* JQScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4719911A1EFCB2CB009E2F62 /* JQScanWrapper.m */; };
+		4719912F1EFCB2CB009E2F62 /* JQZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4719911C1EFCB2CB009E2F62 /* JQZXCapture.m */; };
+		471991301EFCB2CB009E2F62 /* JQZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4719911F1EFCB2CB009E2F62 /* JQZXingWrapper.m */; };
+		471991311EFCB2CB009E2F62 /* JQZXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471991211EFCB2CB009E2F62 /* JQZXScanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		471990E61EFCB2BD009E2F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471990C41EFCB2BD009E2F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471990CB1EFCB2BD009E2F62;
+			remoteInfo = JQScan;
+		};
+		471990F11EFCB2BD009E2F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471990C41EFCB2BD009E2F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471990CB1EFCB2BD009E2F62;
+			remoteInfo = JQScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134D06259FEE6AFCA49840AE /* libPods-JQScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2A92DCC1F6F7A6D2AA74BA /* libPods-JQScanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQScanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C7C67AA176675559246296 /* Pods-JQScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQScan/Pods-JQScan.debug.xcconfig"; sourceTree = "<group>"; };
+		471990CC1EFCB2BD009E2F62 /* JQScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471990D01EFCB2BD009E2F62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		471990D21EFCB2BD009E2F62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		471990D31EFCB2BD009E2F62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		471990D51EFCB2BD009E2F62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		471990D61EFCB2BD009E2F62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		471990D91EFCB2BD009E2F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		471990DB1EFCB2BD009E2F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		471990DE1EFCB2BD009E2F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		471990E01EFCB2BD009E2F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471990E51EFCB2BD009E2F62 /* JQScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471990E91EFCB2BD009E2F62 /* JQScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQScanTests.m; sourceTree = "<group>"; };
+		471990EB1EFCB2BD009E2F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471990F01EFCB2BD009E2F62 /* JQScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471990F41EFCB2BD009E2F62 /* JQScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQScanUITests.m; sourceTree = "<group>"; };
+		471990F61EFCB2BD009E2F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471991031EFCB2CB009E2F62 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		471991041EFCB2CB009E2F62 /* JQScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanResultViewController.h; sourceTree = "<group>"; };
+		471991051EFCB2CB009E2F62 /* JQScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanResultViewController.m; sourceTree = "<group>"; };
+		471991061EFCB2CB009E2F62 /* JQScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JQScanResultViewController.xib; sourceTree = "<group>"; };
+		471991071EFCB2CB009E2F62 /* JQScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanViewController.h; sourceTree = "<group>"; };
+		471991081EFCB2CB009E2F62 /* JQScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanViewController.m; sourceTree = "<group>"; };
+		471991091EFCB2CB009E2F62 /* JQTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JQTest.png; sourceTree = "<group>"; };
+		4719910A1EFCB2CB009E2F62 /* MyQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRViewController.h; sourceTree = "<group>"; };
+		4719910B1EFCB2CB009E2F62 /* MyQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRViewController.m; sourceTree = "<group>"; };
+		4719910D1EFCB2CB009E2F62 /* JQScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanLineAnimation.h; sourceTree = "<group>"; };
+		4719910E1EFCB2CB009E2F62 /* JQScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanLineAnimation.m; sourceTree = "<group>"; };
+		4719910F1EFCB2CB009E2F62 /* JQScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanNative.h; sourceTree = "<group>"; };
+		471991101EFCB2CB009E2F62 /* JQScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanNative.m; sourceTree = "<group>"; };
+		471991111EFCB2CB009E2F62 /* JQScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanNetAnimation.h; sourceTree = "<group>"; };
+		471991121EFCB2CB009E2F62 /* JQScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanNetAnimation.m; sourceTree = "<group>"; };
+		471991131EFCB2CB009E2F62 /* JQScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanResult.h; sourceTree = "<group>"; };
+		471991141EFCB2CB009E2F62 /* JQScanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanResult.m; sourceTree = "<group>"; };
+		471991151EFCB2CB009E2F62 /* JQScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanView.h; sourceTree = "<group>"; };
+		471991161EFCB2CB009E2F62 /* JQScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanView.m; sourceTree = "<group>"; };
+		471991171EFCB2CB009E2F62 /* JQScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanViewStyle.h; sourceTree = "<group>"; };
+		471991181EFCB2CB009E2F62 /* JQScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanViewStyle.m; sourceTree = "<group>"; };
+		471991191EFCB2CB009E2F62 /* JQScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQScanWrapper.h; sourceTree = "<group>"; };
+		4719911A1EFCB2CB009E2F62 /* JQScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQScanWrapper.m; sourceTree = "<group>"; };
+		4719911B1EFCB2CB009E2F62 /* JQZXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQZXCapture.h; sourceTree = "<group>"; };
+		4719911C1EFCB2CB009E2F62 /* JQZXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQZXCapture.m; sourceTree = "<group>"; };
+		4719911D1EFCB2CB009E2F62 /* JQZXCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQZXCaptureDelegate.h; sourceTree = "<group>"; };
+		4719911E1EFCB2CB009E2F62 /* JQZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQZXingWrapper.h; sourceTree = "<group>"; };
+		4719911F1EFCB2CB009E2F62 /* JQZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQZXingWrapper.m; sourceTree = "<group>"; };
+		471991201EFCB2CB009E2F62 /* JQZXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQZXScanViewController.h; sourceTree = "<group>"; };
+		471991211EFCB2CB009E2F62 /* JQZXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQZXScanViewController.m; sourceTree = "<group>"; };
+		4BA022A9EC254F1E0DBCD2F3 /* libPods-JQScanUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQScanUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8318564FB1042956E6E016 /* Pods-JQScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQScan/Pods-JQScan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471990C91EFCB2BD009E2F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CD837310874598D300B444 /* libPods-JQScan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990E21EFCB2BD009E2F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990ED1EFCB2BD009E2F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323C0EAD82A37079CFA8CFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34C7C67AA176675559246296 /* Pods-JQScan.debug.xcconfig */,
+				BD8318564FB1042956E6E016 /* Pods-JQScan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		471990C31EFCB2BD009E2F62 = {
+			isa = PBXGroup;
+			children = (
+				471990CE1EFCB2BD009E2F62 /* JQScan */,
+				471990E81EFCB2BD009E2F62 /* JQScanTests */,
+				471990F31EFCB2BD009E2F62 /* JQScanUITests */,
+				471990CD1EFCB2BD009E2F62 /* Products */,
+				323C0EAD82A37079CFA8CFF4 /* Pods */,
+				80F61F0564FDD6C014A59104 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		471990CD1EFCB2BD009E2F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471990CC1EFCB2BD009E2F62 /* JQScan.app */,
+				471990E51EFCB2BD009E2F62 /* JQScanTests.xctest */,
+				471990F01EFCB2BD009E2F62 /* JQScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471990CE1EFCB2BD009E2F62 /* JQScan */ = {
+			isa = PBXGroup;
+			children = (
+				471991021EFCB2CB009E2F62 /* JQScan */,
+				471990D21EFCB2BD009E2F62 /* AppDelegate.h */,
+				471990D31EFCB2BD009E2F62 /* AppDelegate.m */,
+				471990D51EFCB2BD009E2F62 /* ViewController.h */,
+				471990D61EFCB2BD009E2F62 /* ViewController.m */,
+				471990D81EFCB2BD009E2F62 /* Main.storyboard */,
+				471990DB1EFCB2BD009E2F62 /* Assets.xcassets */,
+				471990DD1EFCB2BD009E2F62 /* LaunchScreen.storyboard */,
+				471990E01EFCB2BD009E2F62 /* Info.plist */,
+				471990CF1EFCB2BD009E2F62 /* Supporting Files */,
+			);
+			path = JQScan;
+			sourceTree = "<group>";
+		};
+		471990CF1EFCB2BD009E2F62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				471990D01EFCB2BD009E2F62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		471990E81EFCB2BD009E2F62 /* JQScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				471990E91EFCB2BD009E2F62 /* JQScanTests.m */,
+				471990EB1EFCB2BD009E2F62 /* Info.plist */,
+			);
+			path = JQScanTests;
+			sourceTree = "<group>";
+		};
+		471990F31EFCB2BD009E2F62 /* JQScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				471990F41EFCB2BD009E2F62 /* JQScanUITests.m */,
+				471990F61EFCB2BD009E2F62 /* Info.plist */,
+			);
+			path = JQScanUITests;
+			sourceTree = "<group>";
+		};
+		471991021EFCB2CB009E2F62 /* JQScan */ = {
+			isa = PBXGroup;
+			children = (
+				471991031EFCB2CB009E2F62 /* CodeScan.bundle */,
+				471991041EFCB2CB009E2F62 /* JQScanResultViewController.h */,
+				471991051EFCB2CB009E2F62 /* JQScanResultViewController.m */,
+				471991061EFCB2CB009E2F62 /* JQScanResultViewController.xib */,
+				471991071EFCB2CB009E2F62 /* JQScanViewController.h */,
+				471991081EFCB2CB009E2F62 /* JQScanViewController.m */,
+				471991091EFCB2CB009E2F62 /* JQTest.png */,
+				4719910A1EFCB2CB009E2F62 /* MyQRViewController.h */,
+				4719910B1EFCB2CB009E2F62 /* MyQRViewController.m */,
+				4719910C1EFCB2CB009E2F62 /* Third */,
+			);
+			path = JQScan;
+			sourceTree = "<group>";
+		};
+		4719910C1EFCB2CB009E2F62 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				4719910D1EFCB2CB009E2F62 /* JQScanLineAnimation.h */,
+				4719910E1EFCB2CB009E2F62 /* JQScanLineAnimation.m */,
+				4719910F1EFCB2CB009E2F62 /* JQScanNative.h */,
+				471991101EFCB2CB009E2F62 /* JQScanNative.m */,
+				471991111EFCB2CB009E2F62 /* JQScanNetAnimation.h */,
+				471991121EFCB2CB009E2F62 /* JQScanNetAnimation.m */,
+				471991131EFCB2CB009E2F62 /* JQScanResult.h */,
+				471991141EFCB2CB009E2F62 /* JQScanResult.m */,
+				471991151EFCB2CB009E2F62 /* JQScanView.h */,
+				471991161EFCB2CB009E2F62 /* JQScanView.m */,
+				471991171EFCB2CB009E2F62 /* JQScanViewStyle.h */,
+				471991181EFCB2CB009E2F62 /* JQScanViewStyle.m */,
+				471991191EFCB2CB009E2F62 /* JQScanWrapper.h */,
+				4719911A1EFCB2CB009E2F62 /* JQScanWrapper.m */,
+				4719911B1EFCB2CB009E2F62 /* JQZXCapture.h */,
+				4719911C1EFCB2CB009E2F62 /* JQZXCapture.m */,
+				4719911D1EFCB2CB009E2F62 /* JQZXCaptureDelegate.h */,
+				4719911E1EFCB2CB009E2F62 /* JQZXingWrapper.h */,
+				4719911F1EFCB2CB009E2F62 /* JQZXingWrapper.m */,
+				471991201EFCB2CB009E2F62 /* JQZXScanViewController.h */,
+				471991211EFCB2CB009E2F62 /* JQZXScanViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		80F61F0564FDD6C014A59104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134D06259FEE6AFCA49840AE /* libPods-JQScan.a */,
+				1D2A92DCC1F6F7A6D2AA74BA /* libPods-JQScanTests.a */,
+				4BA022A9EC254F1E0DBCD2F3 /* libPods-JQScanUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471990CB1EFCB2BD009E2F62 /* JQScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471990F91EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScan" */;
+			buildPhases = (
+				5D629233857EC5F0454E7C54 /* [CP] Check Pods Manifest.lock */,
+				471990C81EFCB2BD009E2F62 /* Sources */,
+				471990C91EFCB2BD009E2F62 /* Frameworks */,
+				471990CA1EFCB2BD009E2F62 /* Resources */,
+				3B76B95CF8909D572F473201 /* [CP] Embed Pods Frameworks */,
+				7E448847D0BC96491CB4CAE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQScan;
+			productName = JQScan;
+			productReference = 471990CC1EFCB2BD009E2F62 /* JQScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		471990E41EFCB2BD009E2F62 /* JQScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471990FC1EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScanTests" */;
+			buildPhases = (
+				471990E11EFCB2BD009E2F62 /* Sources */,
+				471990E21EFCB2BD009E2F62 /* Frameworks */,
+				471990E31EFCB2BD009E2F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471990E71EFCB2BD009E2F62 /* PBXTargetDependency */,
+			);
+			name = JQScanTests;
+			productName = JQScanTests;
+			productReference = 471990E51EFCB2BD009E2F62 /* JQScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		471990EF1EFCB2BD009E2F62 /* JQScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471990FF1EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScanUITests" */;
+			buildPhases = (
+				471990EC1EFCB2BD009E2F62 /* Sources */,
+				471990ED1EFCB2BD009E2F62 /* Frameworks */,
+				471990EE1EFCB2BD009E2F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471990F21EFCB2BD009E2F62 /* PBXTargetDependency */,
+			);
+			name = JQScanUITests;
+			productName = JQScanUITests;
+			productReference = 471990F01EFCB2BD009E2F62 /* JQScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471990C41EFCB2BD009E2F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					471990CB1EFCB2BD009E2F62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+					};
+					471990E41EFCB2BD009E2F62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 471990CB1EFCB2BD009E2F62;
+					};
+					471990EF1EFCB2BD009E2F62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 471990CB1EFCB2BD009E2F62;
+					};
+				};
+			};
+			buildConfigurationList = 471990C71EFCB2BD009E2F62 /* Build configuration list for PBXProject "JQScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 471990C31EFCB2BD009E2F62;
+			productRefGroup = 471990CD1EFCB2BD009E2F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471990CB1EFCB2BD009E2F62 /* JQScan */,
+				471990E41EFCB2BD009E2F62 /* JQScanTests */,
+				471990EF1EFCB2BD009E2F62 /* JQScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471990CA1EFCB2BD009E2F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471991261EFCB2CB009E2F62 /* JQTest.png in Resources */,
+				471990DF1EFCB2BD009E2F62 /* LaunchScreen.storyboard in Resources */,
+				471990DC1EFCB2BD009E2F62 /* Assets.xcassets in Resources */,
+				471990DA1EFCB2BD009E2F62 /* Main.storyboard in Resources */,
+				471991221EFCB2CB009E2F62 /* CodeScan.bundle in Resources */,
+				471991241EFCB2CB009E2F62 /* JQScanResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990E31EFCB2BD009E2F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990EE1EFCB2BD009E2F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B76B95CF8909D572F473201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQScan/Pods-JQScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D629233857EC5F0454E7C54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E448847D0BC96491CB4CAE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQScan/Pods-JQScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471990C81EFCB2BD009E2F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4719912D1EFCB2CB009E2F62 /* JQScanViewStyle.m in Sources */,
+				471991291EFCB2CB009E2F62 /* JQScanNative.m in Sources */,
+				4719912E1EFCB2CB009E2F62 /* JQScanWrapper.m in Sources */,
+				471990D71EFCB2BD009E2F62 /* ViewController.m in Sources */,
+				471991311EFCB2CB009E2F62 /* JQZXScanViewController.m in Sources */,
+				471991231EFCB2CB009E2F62 /* JQScanResultViewController.m in Sources */,
+				471990D41EFCB2BD009E2F62 /* AppDelegate.m in Sources */,
+				4719912A1EFCB2CB009E2F62 /* JQScanNetAnimation.m in Sources */,
+				471990D11EFCB2BD009E2F62 /* main.m in Sources */,
+				4719912B1EFCB2CB009E2F62 /* JQScanResult.m in Sources */,
+				471991281EFCB2CB009E2F62 /* JQScanLineAnimation.m in Sources */,
+				471991251EFCB2CB009E2F62 /* JQScanViewController.m in Sources */,
+				4719912C1EFCB2CB009E2F62 /* JQScanView.m in Sources */,
+				471991301EFCB2CB009E2F62 /* JQZXingWrapper.m in Sources */,
+				471991271EFCB2CB009E2F62 /* MyQRViewController.m in Sources */,
+				4719912F1EFCB2CB009E2F62 /* JQZXCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990E11EFCB2BD009E2F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471990EA1EFCB2BD009E2F62 /* JQScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471990EC1EFCB2BD009E2F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471990F51EFCB2BD009E2F62 /* JQScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		471990E71EFCB2BD009E2F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471990CB1EFCB2BD009E2F62 /* JQScan */;
+			targetProxy = 471990E61EFCB2BD009E2F62 /* PBXContainerItemProxy */;
+		};
+		471990F21EFCB2BD009E2F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471990CB1EFCB2BD009E2F62 /* JQScan */;
+			targetProxy = 471990F11EFCB2BD009E2F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		471990D81EFCB2BD009E2F62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471990D91EFCB2BD009E2F62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		471990DD1EFCB2BD009E2F62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471990DE1EFCB2BD009E2F62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471990F71EFCB2BD009E2F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		471990F81EFCB2BD009E2F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471990FA1EFCB2BD009E2F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C7C67AA176675559246296 /* Pods-JQScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		471990FB1EFCB2BD009E2F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8318564FB1042956E6E016 /* Pods-JQScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		471990FD1EFCB2BD009E2F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQScan.app/JQScan";
+			};
+			name = Debug;
+		};
+		471990FE1EFCB2BD009E2F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQScan.app/JQScan";
+			};
+			name = Release;
+		};
+		471991001EFCB2BD009E2F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQScan;
+			};
+			name = Debug;
+		};
+		471991011EFCB2BD009E2F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471990C71EFCB2BD009E2F62 /* Build configuration list for PBXProject "JQScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471990F71EFCB2BD009E2F62 /* Debug */,
+				471990F81EFCB2BD009E2F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471990F91EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471990FA1EFCB2BD009E2F62 /* Debug */,
+				471990FB1EFCB2BD009E2F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471990FC1EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471990FD1EFCB2BD009E2F62 /* Debug */,
+				471990FE1EFCB2BD009E2F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471990FF1EFCB2BD009E2F62 /* Build configuration list for PBXNativeTarget "JQScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471991001EFCB2BD009E2F62 /* Debug */,
+				471991011EFCB2BD009E2F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471990C41EFCB2BD009E2F62 /* Project object */;
+}

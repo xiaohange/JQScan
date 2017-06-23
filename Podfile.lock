@@ -1,17 +1,14 @@
 PODS:
-  - LBXScan (1.1.1):
-    - ZXingObjC (~> 3.0)
-  - ZXingObjC (3.1.0):
-    - ZXingObjC/All (= 3.1.0)
-  - ZXingObjC/All (3.1.0)
+  - ZXingObjC (3.2.1):
+    - ZXingObjC/All (= 3.2.1)
+  - ZXingObjC/All (3.2.1)
 
 DEPENDENCIES:
-  - LBXScan
+  - ZXingObjC
 
 SPEC CHECKSUMS:
-  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
-  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: 52050166d74978a1b2344b7e246b63eb40ef643b
+PODFILE CHECKSUM: 23d69bacec2c76fd4e2ec8f83005715a335f01d3
 
 COCOAPODS: 1.2.1.beta.1

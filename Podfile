@@ -1,10 +1,7 @@
-platform :ios, "7.0"
+project 'JQScan.xcodeproj'
 
-#只支持ios8以上
-#use_frameworks!
+target 'JQScan' do
 
-target 'HJQScan' do
-
-pod "LBXScan"
-
+ pod "ZXingObjC"
+ 
 end
