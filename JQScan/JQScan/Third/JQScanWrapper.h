@@ -9,17 +9,12 @@
 #import <AVFoundation/AVFoundation.h>
 #import "JQScanResult.h"
 
-
-
 /**
  @brief  封装ZXing和ios系统自带原生扫码功能
          ZXing识别图片二维码以及生成二维码功能
         识别码类型,AVMetadataObjectTypeQRCode：二维码   AVMetadataObjectTypeEAN13Code/AVMetadataObjectTypeEAN8Code：条形码
  */
 @interface JQScanWrapper : NSObject
-
-
-
 
 /**
  @brief  初始化相机，根据系统自动选择ZXing或ios自带识别功能
@@ -32,8 +27,6 @@
 - (instancetype)initWithPreView:(UIView*)preView ArrayObjectType:(NSArray*)arrayBarCodeType cropRect:(CGRect)cropRect
               success:(void(^)(NSArray<JQScanResult*> *array))blockScanResult;
 
-
-
 /**
  @brief  初始化相机，并指定使用ZXing库识别各种码
  @param preView         视频显示View
@@ -41,7 +34,6 @@
  @return LBXScanVendor
  */
 - (instancetype)initZXingWithPreView:(UIView *)preView success:(void(^)(NSArray<JQScanResult*> *array))blockScanResult;
-
 
 
 /*!
@@ -143,9 +135,6 @@
  */
 + (void)recognizeImage:(UIImage*)image success:(void(^)(NSArray<JQScanResult*> *array))block;
 
-
-
-
 #pragma mark- 震动、声音效果
 /**
  @brief  识别成功震动提醒
@@ -156,7 +145,6 @@
  @brief  扫码成功声音提醒
  */
 + (void)systemSound;
-
 
 #pragma mark -相机、相册权限
 
@@ -169,9 +157,4 @@
  */
 + (BOOL)isGetPhotoPermission;
 
-
 @end
-
-
-
-

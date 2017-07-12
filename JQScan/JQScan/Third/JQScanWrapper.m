@@ -13,9 +13,6 @@
 #import <Photos/Photos.h>
 
 @interface JQScanWrapper()
-{
-    
-}
 
 //ios7之后native封装
 @property(nonatomic,strong)JQScanNative* scanNativeObj;
@@ -31,9 +28,7 @@
 //是否指定使用ZXing库
 @property(nonatomic,assign)BOOL isUseZXingLib;
 
-
 @end
-
 
 @implementation JQScanWrapper
 
@@ -101,8 +96,6 @@
     
     return self;
 }
-
-
 
 /**
  @brief  初始化相机，并指定使用ZXing库识别各种码
@@ -227,12 +220,6 @@
      }];
 }
 
-
-
-
-
-
-
 #pragma mark- 震动、声音效果
 
 #define SOUNDID  1109  //1012 -iphone   1152 ipad  1109 ipad
@@ -245,7 +232,6 @@
 {
     AudioServicesPlaySystemSound(SOUNDID);
 }
-
 
 #pragma mark -相机、相册权限
 + (BOOL)isGetCameraPermission
@@ -397,9 +383,6 @@
     return kBarcodeFormatQRCode;
 }
 
-
-
-
 #pragma mark -生成二维码
 
 /*!
@@ -420,15 +403,12 @@
         return  [JQZXingWrapper createCodeWithString:str size:size CodeFomart:kBarcodeFormatQRCode];
 }
 
-
 + (UIImage*)createCodeWithString:(NSString*)str size:(CGSize)size CodeFomart:(NSString*)format
 {
     ZXBarcodeFormat zxformat = [JQScanWrapper convertCodeFomratToZXBarcodeFormat:format];
     
     return  [JQZXingWrapper createCodeWithString:str size:size CodeFomart:zxformat];
 }
-
-
 
 /**
  @brief  图像中间加logo图片
@@ -448,8 +428,6 @@
     UIGraphicsEndImageContext();
     return resultingImage;
 }
-
-
 
 //下面引用自 https://github.com/yourtion/Demo_CustomQRCode
 #pragma mark - InterpolatedUIImage

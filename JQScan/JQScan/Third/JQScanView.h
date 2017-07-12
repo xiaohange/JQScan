@@ -11,8 +11,6 @@
 #import "JQScanNetAnimation.h"
 #import "JQScanViewStyle.h"
 
-
-
 /**
  扫码区域显示效果
  */

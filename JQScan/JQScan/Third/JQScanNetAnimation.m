@@ -7,7 +7,6 @@
 
 #import "JQScanNetAnimation.h"
 
-
 @interface JQScanNetAnimation()
 {
     BOOL isAnimationing;
@@ -65,7 +64,6 @@
     [self performSelector:@selector(stepAnimation) withObject:nil afterDelay:0.3];
 }
 
-
 - (void)startAnimatingWithRect:(CGRect)animationRect InView:(UIView *)parentView Image:(UIImage*)image
 {
     [self.scanImageView setImage:image];
@@ -80,7 +78,6 @@
     
     [self stepAnimation];
 }
-
 
 - (void)dealloc
 {

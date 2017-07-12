@@ -15,11 +15,9 @@
     
     BOOL isAnimationing;
 }
-
 @property (nonatomic,assign) CGRect animationRect;
 
 @end
-
 
 @implementation JQScanLineAnimation
 

@@ -9,8 +9,6 @@
 
 @interface JQScanNetAnimation :UIView
 
-
-
 /**
  *  开始扫码网格效果
  *

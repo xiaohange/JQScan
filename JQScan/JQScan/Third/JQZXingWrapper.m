@@ -14,9 +14,7 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
 
 @interface JQZXingWrapper() <JQZXCaptureDelegate>
 @property (nonatomic, strong) JQZXCapture *capture;
-
 @property (nonatomic,copy)blockScan block;
-
 @property (nonatomic, assign) BOOL bNeedScanResult;
 
 @end

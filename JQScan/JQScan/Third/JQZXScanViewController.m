@@ -50,7 +50,7 @@
     
     }
     
-      [_qRScanView startDeviceReadyingWithText:@"相机启动中"];
+      [_qRScanView startDeviceReadyingWithText:@"准备中..."];
     
     
 }
@@ -103,8 +103,6 @@
     self.view.backgroundColor = [UIColor clearColor];
 }
 
-
-
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
@@ -115,17 +113,11 @@
     [_qRScanView stopScanAnimation];
 }
 
-
-
 #pragma mark -实现类继承该方法，作出对应处理
 - (void)scanResultWithArray:(NSArray<JQScanResult*>*)array
 {
     
 }
-
-
-
-
 
 //开关闪光灯
 - (void)openOrCloseFlash
@@ -133,9 +125,7 @@
     [_scanObj openOrCloseFlash];
     
     self.isOpenFlash =!self.isOpenFlash;
-    
 }
-
 
 #pragma mark --打开相册并识别图片
 
@@ -150,14 +140,10 @@
     
     picker.delegate = self;
    
-    
     picker.allowsEditing = YES;
-    
     
     [self presentViewController:picker animated:YES completion:nil];
 }
-
-
 
 //当选择一张图片后进入这里
 
@@ -177,7 +163,6 @@
         [weakSelf scanResultWithArray:array];
     }];
     
-   
     
     //系统自带识别方法
     /*

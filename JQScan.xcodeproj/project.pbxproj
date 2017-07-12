@@ -330,7 +330,7 @@
 				TargetAttributes = {
 					471990CB1EFCB2BD009E2F62 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = WTB2BKP7UZ;
+						DevelopmentTeam = K2K9REBKPR;
 						ProvisioningStyle = Automatic;
 					};
 					471990E41EFCB2BD009E2F62 = {
@@ -617,7 +617,7 @@
 			baseConfigurationReference = 34C7C67AA176675559246296 /* Pods-JQScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
 				INFOPLIST_FILE = JQScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScan;
@@ -630,7 +630,7 @@
 			baseConfigurationReference = BD8318564FB1042956E6E016 /* Pods-JQScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
 				INFOPLIST_FILE = JQScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQScan;

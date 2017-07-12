@@ -16,7 +16,6 @@
 
 - (instancetype)initWithPreView:(UIView*)preView block:(void(^)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *scanImg))block;
 
-
 - (void)setScanRect:(CGRect)scanRect;
 
 

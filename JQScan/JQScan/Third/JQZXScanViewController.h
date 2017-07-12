@@ -25,8 +25,6 @@
 @property (nonatomic,strong) JQScanView* qRScanView;
 
 
-
-
 /**
  *  界面效果参数
  */
@@ -68,8 +66,6 @@
  */
 - (void)showError:(NSString*)str;
 
-
 - (void)reStartDevice;
-
 
 @end
