@@ -322,7 +322,7 @@
 }
 
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate
-
+////// 若条形码识别率不高, 可以将其方法注释 didOutputSampleBuffer
 - (void)captureOutput:(AVCaptureOutput *)captureOutput
 didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
        fromConnection:(AVCaptureConnection *)connection {
